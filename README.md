@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Test Développeur Web – Majordhom
 
-## Getting Started
+## 👩‍💻 À propos de moi
 
-First, run the development server:
+* **Nom / Prénom :** KHIMOUD Dina
+* **Formation :** M1 Informatique, parcours Ingénierie du Logiciel Libre,  Moyenne académique : 14,15 (S1)
+* **Établissement :** Université du Littoral Côte d’Opale Calais France,  (mobile sur Marseille – famille)
+* **Durée de stage souhaitée :** 12 semaines (3 mois)
+
+🔗 **Liens :**
+
+* GitHub :    https://github.com/dina-khimoud-futuredev
+* ce test :   https://github.com/dina-khimoud-futuredev/majordhom-test
+* Portfolio : https://dina-khimoud-futuredev.github.io/portfolio/
+* LinkedIn :  https://www.linkedin.com/in/dina-khimoud/
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Interface utilisateur
+
+![UI1](./public/screenshots/1.png)
+![UI2](./public/screenshots/2.png)
+
+---
+
+### 🗄️ Base de données (Prisma / SQLite)
+
+![DB1](./public/screenshots/bd1.png)
+![DB2](./public/screenshots/bd2.png)
+![DB3](./public/screenshots/bd3.png)
+
+---
+
+## ⚙️ Stack technique & choix
+
+* **Next.js (React)**
+  Framework fullstack permettant de gérer le frontend et le backend via les API routes.
+
+* **React Hook Form**
+  Permet une gestion simple, performante et optimisée des formulaires.
+
+* **Tailwind CSS**
+  Utilisé pour créer une interface moderne et fidèle à la maquette rapidement.
+
+* **Prisma**
+  ORM permettant de manipuler facilement la base de données avec un typage fort.
+
+* **SQLite**
+  Base de données légère, adaptée à un projet de test.
+
+---
+
+## 🚀 Lancement du projet
 
 ```bash
+npm install
+npx prisma migrate dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Puis ouvrir dans le navigateur :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ❓ Questions
 
-To learn more about Next.js, take a look at the following resources:
+### ➤ Avez-vous trouvé l’exercice facile ou difficile ?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+L’exercice était intéressant avec une difficulté progressive.
+L’intégration de la maquette était accessible, mais la gestion du formulaire avec les disponibilités et la base de données a demandé plus de réflexion.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### ➤ Avez-vous appris de nouveaux outils ?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Oui, notamment **Prisma** pour la gestion de la base de données et **React Hook Form** pour améliorer la gestion du formulaire.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### ➤ Quelle est la place du développement web dans votre formation ?
+
+Le développement web occupe une place importante dans ma formation, à travers des projets pratiques mêlant frontend et backend.
+
+---
+
+### ➤ Avez-vous utilisé un LLM ?
+
+Oui, j’ai utilisé un LLM pour m’aider à comprendre certaines erreurs, structurer mon code et améliorer la qualité globale du projet, tout en veillant à bien comprendre les solutions proposées.

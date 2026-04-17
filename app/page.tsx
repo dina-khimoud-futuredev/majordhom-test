@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             {/* DROITE */}
-            <div className="flex flex-col h-full">
+            <div className="flex flex-col h-[400px]">
               <h2 className="text-white text-base font-bold mb-6 uppercase tracking-widest">
                 VOTRE MESSAGE
               </h2>
