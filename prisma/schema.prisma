@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Contact {
+  id           Int            @id @default(autoincrement())
+  firstname    String
+  lastname     String
+  email        String
+  phone        String
+  message      String
+  availabilities Availability[]
+  createdAt    DateTime       @default(now())
+}
+
+model Availability {
+  id        Int     @id @default(autoincrement())
+  day       String
+  hour      String
+  contactId Int
+  contact   Contact @relation(fields: [contactId], references: [id])
+}
